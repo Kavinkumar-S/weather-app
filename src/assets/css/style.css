@@ -1,0 +1,122 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body{
+    background: #e8e8e8;
+    height: 100vh;
+}
+p{
+    font-size: 15px;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.day-container{
+background-color: #ADD8E6;
+width: 30%;
+height: 100vh;
+padding: 20px;
+}
+.view-container{
+    width: 70%;
+padding: 20px;
+}
+.search-container{
+    display: flex;
+    justify-content: space-between;
+}
+.search-form{
+    position: relative;
+}
+.search-form__input{
+width: 240px;
+padding:8px 5px;
+background: #fff;
+outline: none;
+border-radius: 4px;
+border: 1px solid #fff;
+}
+.searchform__btn{
+    position: absolute;
+    right: 0px;
+    background-color: #1a73e8;
+    color: #fff;
+    padding:8px 5px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #1a73e8;
+    cursor: pointer
+    ;
+}    
+
+.weekly-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.weekly-container__card{
+    background-color: #fff;
+    color: #0e0e0e;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.temperature-container__details{
+    display: flex;
+    justify-content: space-between;
+}
+.location-container{
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.location__img{
+    width: 20px;
+    margin-right: 5px;
+}
+.weekly-container__img{
+    width: 25px;
+}
+
+.sunrise-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.sunrise-container img{
+    width: 30px;
+}
+
+.forecast-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 15px;
+    width: 60%;
+}
+.forecast-container__details{
+    display: flex;
+}
+.forecast-container__details img{
+    width: 20px;
+    margin-right: 5px;  
+}
+.forecast-img__container{
+    text-align: center;
+}
+.forecast-img{
+    width: 85px;
+}
